@@ -1,0 +1,20 @@
+{
+  "name": "React-BoilerPlate",
+  "version": "1.0.0",
+  "description": "React boilerplate to get going with a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/901david/React-BoilerPlate.git"
+  },
+  "keywords": ["react", "boiler"],
+  "author": "David Hammond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/901david/React-BoilerPlate/issues"
+  },
+  "homepage": "https://github.com/901david/React-BoilerPlate#readme"
+}
