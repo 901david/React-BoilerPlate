@@ -14,6 +14,7 @@ class App extends Component {
 
   renderNewTitle() {
     this.props.changeTitle(this.state.text);
+    this.setState({text: ''});
   }
 
   onInputChange(event) {

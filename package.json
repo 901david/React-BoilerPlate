@@ -26,8 +26,11 @@
   },
   "homepage": "https://github.com/901david/React-BoilerPlate#readme",
   "dependencies": {
+    "prettier": "^1.13.5",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
