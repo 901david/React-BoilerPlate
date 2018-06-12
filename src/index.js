@@ -1,6 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
-import './styles/styles.sass';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-ReactDOM.render(<App />, document.getElementById('app'));
+import App from "./components/App";
+import "./styles/styles.sass";
+
+ReactDOM.render(
+  <Router>
+    <Route exact={true} path="/" component={App} />
+  </Router>,
+  document.getElementById("app")
+);
