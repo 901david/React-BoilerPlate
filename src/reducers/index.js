@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
-import title from './title';
+import { combineReducers } from "redux";
+import title from "./title";
 
 const rootReducer = combineReducers({
-  title
+  title,
 });
 
 export default rootReducer;

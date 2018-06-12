@@ -1,9 +1,8 @@
-import { ADD_TITLE } from '../../types';
+import { ADD_TITLE } from "../../types";
 
-
-export const changeTitle = (title) => {
+export const changeTitle = title => {
   return {
     type: ADD_TITLE,
     payload: title,
-  }
-}
+  };
+};
